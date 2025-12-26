@@ -22,6 +22,227 @@
   loading="lazy"
   allowfullscreen>
 </iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanka Kulkarni | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;          /* slate-900 */
+      --bg-card: #111827;    /* gray-900 */
+      --text: #e5e7eb;       /* gray-200 */
+      --muted: #9ca3af;      /* gray-400 */
+      --accent: #38bdf8;     /* sky-400 */
+      --accent-soft: #0ea5e9;
+    }
 
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, #020617, var(--bg));
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    nav {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      font-weight: 500;
+      color: var(--text);
+      opacity: 0.85;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.9);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(56,189,248,0.12);
+      color: var(--accent);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      margin: 6px 6px 0 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .project-placeholder {
+      border: 1px dashed #334155;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Priyanka Kulkarni</h1>
+  <p>
+    Finance Transformation Consultant | Metatech Learner<br>
+    Excel Power Query · Typebot · n8n Workflows · Business Automation
+  </p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a Finance Transformation Consultant with 3.5+ years of experience working at the intersection of FP&A and technology.
+      Currently, I am pursuing a <strong>Metatech course</strong> where I am learning modern tools like <strong>Excel Power Query</strong>,
+      <strong>Typebot</strong>, <strong>n8n workflows</strong>, and other platforms used for business automation.
+    </p>
+    <p style="margin-top:12px;">
+      This portfolio is designed to showcase my learning journey, class projects, and automation solutions as I transition
+      towards tech-enabled finance and workflow automation roles.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills & Tools</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Finance & Analytics</h3>
+      <span class="tag">FP&A</span>
+      <span class="tag">Budgeting & Forecasting</span>
+      <span class="tag">SAP Analytics Cloud</span>
+      <span class="tag">Financial Modeling</span>
+    </div>
+    <div class="card">
+      <h3>Automation & Tools</h3>
+      <span class="tag">Excel Power Query</span>
+      <span class="tag">n8n</span>
+      <span class="tag">Typebot</span>
+      <span class="tag">Business Automation</span>
+    </div>
+    <div class="card">
+      <h3>Other Technologies</h3>
+      <span class="tag">Power BI (Beginner)</span>
+      <span class="tag">SAP Datasphere</span>
+      <span class="tag">OData</span>
+      <span class="tag">GitHub</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <!-- You can duplicate this card for every new project -->
+  <div class="card project-placeholder">
+    Project Title<br>
+    Short description of the problem, tool used, and outcome.<br>
+    (Replace this placeholder with your class or real project)
+  </div>
+
+  <div class="card project-placeholder">
+    Automation / Workflow Project<br>
+    Example: Excel → n8n → Email / Dashboard automation
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+  <div class="card">
+    <h3>Senior Consultant – IOCFO Consulting Pvt Ltd.</h3>
+    <p class="muted">May 2022 – Present</p>
+    <p style="margin-top:10px;">
+      Worked on end-to-end SAP Analytics Cloud planning implementations for Government, Automotive,
+      FMCG, and Retail clients. Designed automated planning models, data actions, and reporting workflows
+      that reduced manual effort by up to 60%.
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:kulkarni.piyup@gmail.com">kulkarni.piyup@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/priyanka-k-56b8021ab/" target="_blank">View Profile</a></p>
+    <p style="margin-top:10px;">
+      This portfolio is hosted on <strong>GitHub Pages</strong> and will evolve as I add more projects and automation workflows.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2025 Priyanka Kulkarni · Built for LinkedIn & GitHub
+</footer>
+
+</body>
+</html>
 </body>
 </html>
